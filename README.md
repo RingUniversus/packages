@@ -1,2 +1,1 @@
-# packages
-Ring Universus npm packages
+# Ring Universus packages
