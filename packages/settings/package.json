@@ -1,6 +1,6 @@
 {
   "name": "@ringuniversus/settings",
-  "version": "0.1.3-alpha.0",
+  "version": "0.1.4-alpha.0",
   "license": "MIT",
   "author": "Conight <xfddwhh@gmail.com>",
   "engines": {
@@ -34,5 +34,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "37677220cb42b540c889d54ae8bc98866828102b"
+  "gitHead": "048aac77be2cd269e7178fc08cd2b51194000b6e"
 }
