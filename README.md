@@ -7,3 +7,9 @@
 ```shell
 yarn config set workspaces-experimental true
 ```
+
+- Publish Packages
+
+```shell
+npx lerna publish --no-private
+```
