@@ -28,11 +28,13 @@ import * as settings from "http://cdn.skypack.dev/@ringuniversus/settings";
 
 - [Contracts](README.md#contracts)
 - [Initializers](README.md#initializers)
+- [TownInitializers](README.md#towninitializers)
 
 ### Functions
 
 - [decodeContracts](README.md#decodecontracts)
 - [decodeInitializers](README.md#decodeinitializers)
+- [decodeTownInitializers](README.md#decodetowninitializers)
 
 ## Type Aliases
 
@@ -45,6 +47,14 @@ import * as settings from "http://cdn.skypack.dev/@ringuniversus/settings";
 ### Initializers
 
 Ƭ **Initializers**: `ReturnType`<typeof [`decodeInitializers`](README.md#decodeinitializers)\>
+
+---
+
+### TownInitializers
+
+Ƭ **TownInitializers**: `ReturnType`<typeof [`decodeTownInitializers`](README.md#decodetowninitializers)\>
+
+Town Initializers
 
 ## Functions
 
@@ -97,3 +107,28 @@ error.
 | Name           | Type      |
 | :------------- | :-------- |
 | `START_PAUSED` | `boolean` |
+
+---
+
+### decodeTownInitializers
+
+▸ **decodeTownInitializers**(`blob`, `formatterFn?`): `Object`
+
+Verifies untrusted input. Either returns a value, or throws a decoding
+error.
+
+#### Parameters
+
+| Name           | Type                                         |
+| :------------- | :------------------------------------------- |
+| `blob`         | `unknown`                                    |
+| `formatterFn?` | (`ann`: `Annotation`) => `string` \| `Error` |
+
+#### Returns
+
+`Object`
+
+| Name                 | Type     |
+| :------------------- | :------- |
+| `EXPLORER_FEE_RATIO` | `number` |
+| `EXPLORER_SLOT`      | `number` |
