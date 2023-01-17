@@ -1,15 +1,24 @@
 {
-  "name": "@ringuniversus/settings",
+  "name": "@ringuniversus/contracts",
   "version": "0.1.5-alpha.0",
   "license": "MIT",
   "author": "Conight <xfddwhh@gmail.com>",
   "engines": {
     "node": ">=16"
   },
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "index.js",
+  "types": "index.d.ts",
   "files": [
-    "dist/"
+    "index.ts",
+    "index.js",
+    "index.js.map",
+    "index.d.ts",
+    "town.ts",
+    "town.js",
+    "town.js.map",
+    "town.d.ts",
+    "typechain/",
+    "abis/"
   ],
   "scripts": {
     "prepublishOnly": "npm run build && npm run docs",
@@ -17,11 +26,12 @@
     "test": "exit 0",
     "lint": "eslint .",
     "format": "prettier --write .",
-    "docs": "typedoc && npm run format",
-    "clean": "del-cli dist node_modules tsconfig.ref.tsbuildinfo"
+    "docs": "typedoc --tsconfig tsconfig.docs.json && npm run format",
+    "clean": "del-cli node_modules typechain abis tsconfig.ref.tsbuildinfo"
   },
   "dependencies": {
-    "decoders": "^2.0.1"
+    "@ethersproject/providers": "^5.7.2",
+    "ethers": "^5.7.2"
   },
   "devDependencies": {
     "del-cli": "^5.0.0",
@@ -34,5 +44,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "048aac77be2cd269e7178fc08cd2b51194000b6e"
+  "gitHead": "7be5c147fe7c92b409ae3e7608713590f5b66c63"
 }

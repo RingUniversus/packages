@@ -76,13 +76,9 @@ error.
 
 `Object`
 
-| Name               | Type     |
-| :----------------- | :------- |
-| `CONTRACT_ADDRESS` | `string` |
-| `INIT_ADDRESS`     | `string` |
-| `NETWORK`          | `string` |
-| `NETWORK_ID`       | `number` |
-| `START_BLOCK`      | `number` |
+| Name   | Type                                                                                    |
+| :----- | :-------------------------------------------------------------------------------------- |
+| `town` | { NETWORK: string; NETWORK_ID: number; START_BLOCK: number; CONTRACT_ADDRESS: string; } |
 
 ---
 
@@ -128,7 +124,11 @@ error.
 
 `Object`
 
-| Name                 | Type     |
-| :------------------- | :------- |
-| `EXPLORER_FEE_RATIO` | `number` |
-| `EXPLORER_SLOT`      | `number` |
+| Name                       | Type     |
+| :------------------------- | :------- |
+| `EXPLORER_FEE_RATIO`       | `number` |
+| `EXPLORER_SLOT`            | `number` |
+| `MAX_EXPLORE_REWARDS`      | `number` |
+| `MAX_EXPLORE_TIME`         | `number` |
+| `MIN_EXPLORE_TIME`         | `number` |
+| `SYSTEM_EXPLORE_FEE_RATIO` | `number` |
