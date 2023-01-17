@@ -38,3 +38,9 @@ npx lerna exec -- yarn unlink
 yarn link "@ringuniversus/settings"
 yarn link "@ringuniversus/contracts"
 ```
+
+## Local publish
+
+```shell
+yarn prepublishOnly
+```
