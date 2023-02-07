@@ -1,6 +1,6 @@
 {
   "name": "@ringuniversus/contracts",
-  "version": "0.1.6-alpha.0",
+  "version": "0.1.7-alpha.0",
   "license": "MIT",
   "author": "Conight <xfddwhh@gmail.com>",
   "engines": {
@@ -44,5 +44,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "7be5c147fe7c92b409ae3e7608713590f5b66c63"
+  "gitHead": "c99e17fa1be8995e1680ead2ed85fb76b4ddd9fe"
 }
