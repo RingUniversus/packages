@@ -17,5 +17,6 @@ export declare const START_BLOCK = 0;
 /**
  * The address for the RingUniversusTown contract.
  */
-export declare const CONTRACT_ADDRESS = "0xadb98FfcBdd6C62C5e2aE44f3085f40241773A29";
+export declare const CONTRACT_ADDRESS =
+  "0x05bc9678C41a3E89cA0ca6D837565a4bCb5D0E5c";
 //# sourceMappingURL=town.d.ts.map
