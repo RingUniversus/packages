@@ -76,7 +76,8 @@ var __importStar =
     return result;
   };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.ring = exports.town = void 0;
+exports.coin = exports.ring = exports.town = void 0;
 exports.town = __importStar(require("./town"));
 exports.ring = __importStar(require("./ring"));
+exports.coin = __importStar(require("./coin"));
 //# sourceMappingURL=index.js.map

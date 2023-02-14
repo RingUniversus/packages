@@ -13,9 +13,11 @@ const baseDecoder = decoders.exact({
    * Contract addresses
    */
   CONTRACT_ADDRESS: decoders.string,
+  INIT_ADDRESS: decoders.string,
 });
 
 export const decodeContracts = decoders.exact({
   town: baseDecoder,
   ring: baseDecoder,
+  coin: baseDecoder,
 }).verify;

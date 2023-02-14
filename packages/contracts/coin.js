@@ -1,7 +1,7 @@
 "use strict";
 /**
  * This package contains deployed contract addresses, ABIs, and Typechain types
- * for the Ring Universus Ring.
+ * for the Ring Universus Coin.
  */
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.INIT_ADDRESS =
@@ -23,11 +23,11 @@ exports.NETWORK_ID = 31337;
  */
 exports.START_BLOCK = 0;
 /**
- * The address for the RingUniversusRing contract.
+ * The address for the RingUniversusCoin contract.
  */
-exports.CONTRACT_ADDRESS = "0x850C9b08Eb73E3BA7c71187810e3dE1B34BD0bD0";
+exports.CONTRACT_ADDRESS = "0xd3373051B52d47A1CEBa770A762C852AE2A94062";
 /**
  * The address for the initalizer contract. Useful for lobbies.
  */
-exports.INIT_ADDRESS = "0x3e4260685A2f2da95ce63Cd2E397feEdCF6548dC";
-//# sourceMappingURL=ring.js.map
+exports.INIT_ADDRESS = "0xe5586817669ec04A95062E206cf16a948686b698";
+//# sourceMappingURL=coin.js.map

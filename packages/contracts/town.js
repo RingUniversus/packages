@@ -4,7 +4,8 @@
  * for the Ring Universus Town.
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.CONTRACT_ADDRESS =
+exports.INIT_ADDRESS =
+  exports.CONTRACT_ADDRESS =
   exports.START_BLOCK =
   exports.NETWORK_ID =
   exports.NETWORK =
@@ -24,5 +25,9 @@ exports.START_BLOCK = 0;
 /**
  * The address for the RingUniversusTown contract.
  */
-exports.CONTRACT_ADDRESS = "0x05bc9678C41a3E89cA0ca6D837565a4bCb5D0E5c";
+exports.CONTRACT_ADDRESS = "0x05e3A7060B6311FccF4f5D98884d98739608E7C7";
+/**
+ * The address for the initalizer contract. Useful for lobbies.
+ */
+exports.INIT_ADDRESS = "0x828b5288092e354849f83D01644035a9b2E6FFA9";
 //# sourceMappingURL=town.js.map

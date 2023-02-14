@@ -1,28 +1,28 @@
-# Namespace: town
+# Namespace: coin
 
 ## Table of contents
 
 ### Variables
 
-- [CONTRACT_ADDRESS](town.md#contract_address)
-- [INIT_ADDRESS](town.md#init_address)
-- [NETWORK](town.md#network)
-- [NETWORK_ID](town.md#network_id)
-- [START_BLOCK](town.md#start_block)
+- [CONTRACT_ADDRESS](coin.md#contract_address)
+- [INIT_ADDRESS](coin.md#init_address)
+- [NETWORK](coin.md#network)
+- [NETWORK_ID](coin.md#network_id)
+- [START_BLOCK](coin.md#start_block)
 
 ## Variables
 
 ### CONTRACT_ADDRESS
 
-• `Const` **CONTRACT_ADDRESS**: `"0x704e7da7faD33490F3BD0888E96eFbb066A3392e"`
+• `Const` **CONTRACT_ADDRESS**: `"0xD8d10175D5eB3B1dBc4C2F7953eD9A339bc9Cbf5"`
 
-The address for the RingUniversusTown contract.
+The address for the RingUniversusCoin contract.
 
 ---
 
 ### INIT_ADDRESS
 
-• `Const` **INIT_ADDRESS**: `"0x64e262626fdb552921e79ddcC694463cc82a5E0C"`
+• `Const` **INIT_ADDRESS**: `"0xb9bC4881587839Ed919EB68061d4B3CD46eF50D7"`
 
 The address for the initalizer contract. Useful for lobbies.
 

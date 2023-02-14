@@ -26,6 +26,7 @@ import * as settings from "http://cdn.skypack.dev/@ringuniversus/settings";
 
 ### Type Aliases
 
+- [CoinInitializers](README.md#coininitializers)
 - [Contracts](README.md#contracts)
 - [Initializers](README.md#initializers)
 - [RingInitializers](README.md#ringinitializers)
@@ -33,12 +34,21 @@ import * as settings from "http://cdn.skypack.dev/@ringuniversus/settings";
 
 ### Functions
 
+- [decodeCoinInitializers](README.md#decodecoininitializers)
 - [decodeContracts](README.md#decodecontracts)
 - [decodeInitializers](README.md#decodeinitializers)
 - [decodeRingInitializers](README.md#decoderinginitializers)
 - [decodeTownInitializers](README.md#decodetowninitializers)
 
 ## Type Aliases
+
+### CoinInitializers
+
+Ƭ **CoinInitializers**: `ReturnType`<typeof [`decodeCoinInitializers`](README.md#decodecoininitializers)\>
+
+Coin Initializers
+
+---
 
 ### Contracts
 
@@ -68,6 +78,30 @@ Town Initializers
 
 ## Functions
 
+### decodeCoinInitializers
+
+▸ **decodeCoinInitializers**(`blob`, `formatterFn?`): `Object`
+
+Verifies untrusted input. Either returns a value, or throws a decoding
+error.
+
+#### Parameters
+
+| Name           | Type                                         |
+| :------------- | :------------------------------------------- |
+| `blob`         | `unknown`                                    |
+| `formatterFn?` | (`ann`: `Annotation`) => `string` \| `Error` |
+
+#### Returns
+
+`Object`
+
+| Name           | Type     |
+| :------------- | :------- |
+| `PLACE_HOLDER` | `number` |
+
+---
+
 ### decodeContracts
 
 ▸ **decodeContracts**(`blob`, `formatterFn?`): `Object`
@@ -86,10 +120,11 @@ error.
 
 `Object`
 
-| Name   | Type                                                                                    |
-| :----- | :-------------------------------------------------------------------------------------- |
-| `ring` | { NETWORK: string; NETWORK_ID: number; START_BLOCK: number; CONTRACT_ADDRESS: string; } |
-| `town` | { NETWORK: string; NETWORK_ID: number; START_BLOCK: number; CONTRACT_ADDRESS: string; } |
+| Name   | Type                                                                                                          |
+| :----- | :------------------------------------------------------------------------------------------------------------ |
+| `coin` | { NETWORK: string; NETWORK_ID: number; START_BLOCK: number; CONTRACT_ADDRESS: string; INIT_ADDRESS: string; } |
+| `ring` | { NETWORK: string; NETWORK_ID: number; START_BLOCK: number; CONTRACT_ADDRESS: string; INIT_ADDRESS: string; } |
+| `town` | { NETWORK: string; NETWORK_ID: number; START_BLOCK: number; CONTRACT_ADDRESS: string; INIT_ADDRESS: string; } |
 
 ---
 

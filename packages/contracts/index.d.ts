@@ -32,4 +32,5 @@
  */
 export * as town from "./town";
 export * as ring from "./ring";
+export * as coin from "./coin";
 //# sourceMappingURL=index.d.ts.map

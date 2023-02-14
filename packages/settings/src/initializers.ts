@@ -37,3 +37,11 @@ export const decodeRingInitializers = decoders.exact({
   BOUNTY_MINTING_RATIO: withDefault(decoders.integer, 1000),
   BOUNTY_RATIO_BONUS: withDefault(decoders.integer, 100),
 }).verify;
+
+/**
+ * Coin Initializers
+ */
+export type CoinInitializers = ReturnType<typeof decodeCoinInitializers>;
+export const decodeCoinInitializers = decoders.exact({
+  PLACE_HOLDER: withDefault(decoders.integer, 0),
+}).verify;

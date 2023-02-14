@@ -1,4 +1,11 @@
 {
   "extends": "./tsconfig.base.json",
-  "include": ["index.ts", "town.ts", "typechain/**/*.ts", "typechain/**/*.d.ts"]
+  "include": [
+    "index.ts",
+    "town.ts",
+    "ring.ts",
+    "coin.ts",
+    "typechain/**/*.ts",
+    "typechain/**/*.d.ts"
+  ]
 }
