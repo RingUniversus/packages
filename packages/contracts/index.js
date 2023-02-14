@@ -76,6 +76,7 @@ var __importStar =
     return result;
   };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.town = void 0;
+exports.ring = exports.town = void 0;
 exports.town = __importStar(require("./town"));
+exports.ring = __importStar(require("./ring"));
 //# sourceMappingURL=index.js.map

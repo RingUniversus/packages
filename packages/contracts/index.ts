@@ -32,3 +32,4 @@
  */
 
 export * as town from "./town";
+export * as ring from "./ring";
