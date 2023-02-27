@@ -20,4 +20,5 @@ export const decodeContracts = decoders.exact({
   town: baseDecoder,
   ring: baseDecoder,
   coin: baseDecoder,
+  equipment: baseDecoder,
 }).verify;

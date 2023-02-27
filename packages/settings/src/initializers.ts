@@ -43,5 +43,15 @@ export const decodeRingInitializers = decoders.exact({
  */
 export type CoinInitializers = ReturnType<typeof decodeCoinInitializers>;
 export const decodeCoinInitializers = decoders.exact({
-  PLACE_HOLDER: withDefault(decoders.integer, 0),
+  PLACEHOLDER: withDefault(decoders.integer, 0),
+}).verify;
+
+/**
+ * Equipment Initializers
+ */
+export type EquipmentInitializers = ReturnType<
+  typeof decodeEquipmentInitializers
+>;
+export const decodeEquipmentInitializers = decoders.exact({
+  PLACEHOLDER: withDefault(decoders.integer, 0),
 }).verify;
