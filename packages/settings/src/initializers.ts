@@ -64,3 +64,18 @@ export const decodeBountyInitializers = decoders.exact({
   // Default delay 3 days
   VALID_DELAY: withDefault(decoders.integer, 259200),
 }).verify;
+
+/**
+ * Player Initializers
+ */
+export type PlayerInitializers = ReturnType<typeof decodePlayerInitializers>;
+export const decodePlayerInitializers = decoders.exact({
+  BASE_MOVE_SPEED: withDefault(decoders.integer, 10000),
+  BASE_ATTACK_POWER: withDefault(decoders.integer, 10000),
+  MIN_TRIP_TIME: withDefault(decoders.integer, 1),
+  TOWN_MINT_FEE: withDefault(decoders.integer, 200),
+  MAX_MINT_TOW_PER_MOVE: withDefault(decoders.integer, 3),
+  TOWN_MINT_RATIO_PER_MOVE: withDefault(decoders.integer, 3000),
+  BOUNTY_MINT_RATIO_PER_MOVE: withDefault(decoders.integer, 3000),
+  SEGMENTATION_DISTANCE_PER_MOVE: withDefault(decoders.integer, 200),
+}).verify;

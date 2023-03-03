@@ -22,4 +22,5 @@ export const decodeContracts = decoders.exact({
   coin: baseDecoder,
   bounty: baseDecoder,
   equipment: baseDecoder,
+  player: baseDecoder,
 }).verify;

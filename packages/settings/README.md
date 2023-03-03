@@ -31,6 +31,7 @@ import * as settings from "http://cdn.skypack.dev/@ringuniversus/settings";
 - [Contracts](README.md#contracts)
 - [EquipmentInitializers](README.md#equipmentinitializers)
 - [Initializers](README.md#initializers)
+- [PlayerInitializers](README.md#playerinitializers)
 - [RingInitializers](README.md#ringinitializers)
 - [TownInitializers](README.md#towninitializers)
 
@@ -41,6 +42,7 @@ import * as settings from "http://cdn.skypack.dev/@ringuniversus/settings";
 - [decodeContracts](README.md#decodecontracts)
 - [decodeEquipmentInitializers](README.md#decodeequipmentinitializers)
 - [decodeInitializers](README.md#decodeinitializers)
+- [decodePlayerInitializers](README.md#decodeplayerinitializers)
 - [decodeRingInitializers](README.md#decoderinginitializers)
 - [decodeTownInitializers](README.md#decodetowninitializers)
 
@@ -79,6 +81,14 @@ Equipment Initializers
 ### Initializers
 
 Ƭ **Initializers**: `ReturnType`<typeof [`decodeInitializers`](README.md#decodeinitializers)\>
+
+---
+
+### PlayerInitializers
+
+Ƭ **PlayerInitializers**: `ReturnType`<typeof [`decodePlayerInitializers`](README.md#decodeplayerinitializers)\>
+
+Player Initializers
 
 ---
 
@@ -169,6 +179,7 @@ error.
 | `bounty`    | { NETWORK: string; NETWORK_ID: number; START_BLOCK: number; CONTRACT_ADDRESS: string; INIT_ADDRESS: string; } |
 | `coin`      | { NETWORK: string; NETWORK_ID: number; START_BLOCK: number; CONTRACT_ADDRESS: string; INIT_ADDRESS: string; } |
 | `equipment` | { NETWORK: string; NETWORK_ID: number; START_BLOCK: number; CONTRACT_ADDRESS: string; INIT_ADDRESS: string; } |
+| `player`    | { NETWORK: string; NETWORK_ID: number; START_BLOCK: number; CONTRACT_ADDRESS: string; INIT_ADDRESS: string; } |
 | `ring`      | { NETWORK: string; NETWORK_ID: number; START_BLOCK: number; CONTRACT_ADDRESS: string; INIT_ADDRESS: string; } |
 | `town`      | { NETWORK: string; NETWORK_ID: number; START_BLOCK: number; CONTRACT_ADDRESS: string; INIT_ADDRESS: string; } |
 
@@ -219,6 +230,37 @@ error.
 | Name           | Type      |
 | :------------- | :-------- |
 | `START_PAUSED` | `boolean` |
+
+---
+
+### decodePlayerInitializers
+
+▸ **decodePlayerInitializers**(`blob`, `formatterFn?`): `Object`
+
+Verifies untrusted input. Either returns a value, or throws a decoding
+error.
+
+#### Parameters
+
+| Name           | Type                                         |
+| :------------- | :------------------------------------------- |
+| `blob`         | `unknown`                                    |
+| `formatterFn?` | (`ann`: `Annotation`) => `string` \| `Error` |
+
+#### Returns
+
+`Object`
+
+| Name                             | Type     |
+| :------------------------------- | :------- |
+| `BASE_ATTACK_POWER`              | `number` |
+| `BASE_MOVE_SPEED`                | `number` |
+| `BOUNTY_MINT_RATIO_PER_MOVE`     | `number` |
+| `MAX_MINT_TOW_PER_MOVE`          | `number` |
+| `MIN_TRIP_TIME`                  | `number` |
+| `SEGMENTATION_DISTANCE_PER_MOVE` | `number` |
+| `TOWN_MINT_FEE`                  | `number` |
+| `TOWN_MINT_RATIO_PER_MOVE`       | `number` |
 
 ---
 

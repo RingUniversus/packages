@@ -76,7 +76,8 @@ var __importStar =
     return result;
   };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.equipment =
+exports.player =
+  exports.equipment =
   exports.bounty =
   exports.coin =
   exports.ring =
@@ -87,4 +88,5 @@ exports.ring = __importStar(require("./ring"));
 exports.coin = __importStar(require("./coin"));
 exports.bounty = __importStar(require("./bounty"));
 exports.equipment = __importStar(require("./equipment"));
+exports.player = __importStar(require("./player"));
 //# sourceMappingURL=index.js.map

@@ -37,5 +37,6 @@ The contract ABIs can be found in the `abis` directory.
 - [bounty](modules/bounty.md)
 - [coin](modules/coin.md)
 - [equipment](modules/equipment.md)
+- [player](modules/player.md)
 - [ring](modules/ring.md)
 - [town](modules/town.md)
