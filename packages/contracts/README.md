@@ -34,6 +34,7 @@ The contract ABIs can be found in the `abis` directory.
 
 ### Namespaces
 
+- [bounty](modules/bounty.md)
 - [coin](modules/coin.md)
 - [equipment](modules/equipment.md)
 - [ring](modules/ring.md)

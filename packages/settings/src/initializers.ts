@@ -55,3 +55,12 @@ export type EquipmentInitializers = ReturnType<
 export const decodeEquipmentInitializers = decoders.exact({
   PLACEHOLDER: withDefault(decoders.integer, 0),
 }).verify;
+
+/**
+ * Bounty Initializers
+ */
+export type BountyInitializers = ReturnType<typeof decodeBountyInitializers>;
+export const decodeBountyInitializers = decoders.exact({
+  // Default delay 3 days
+  VALID_DELAY: withDefault(decoders.integer, 259200),
+}).verify;

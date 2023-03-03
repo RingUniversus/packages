@@ -26,6 +26,7 @@ import * as settings from "http://cdn.skypack.dev/@ringuniversus/settings";
 
 ### Type Aliases
 
+- [BountyInitializers](README.md#bountyinitializers)
 - [CoinInitializers](README.md#coininitializers)
 - [Contracts](README.md#contracts)
 - [EquipmentInitializers](README.md#equipmentinitializers)
@@ -35,6 +36,7 @@ import * as settings from "http://cdn.skypack.dev/@ringuniversus/settings";
 
 ### Functions
 
+- [decodeBountyInitializers](README.md#decodebountyinitializers)
 - [decodeCoinInitializers](README.md#decodecoininitializers)
 - [decodeContracts](README.md#decodecontracts)
 - [decodeEquipmentInitializers](README.md#decodeequipmentinitializers)
@@ -43,6 +45,14 @@ import * as settings from "http://cdn.skypack.dev/@ringuniversus/settings";
 - [decodeTownInitializers](README.md#decodetowninitializers)
 
 ## Type Aliases
+
+### BountyInitializers
+
+Ƭ **BountyInitializers**: `ReturnType`<typeof [`decodeBountyInitializers`](README.md#decodebountyinitializers)\>
+
+Bounty Initializers
+
+---
 
 ### CoinInitializers
 
@@ -88,6 +98,30 @@ Town Initializers
 
 ## Functions
 
+### decodeBountyInitializers
+
+▸ **decodeBountyInitializers**(`blob`, `formatterFn?`): `Object`
+
+Verifies untrusted input. Either returns a value, or throws a decoding
+error.
+
+#### Parameters
+
+| Name           | Type                                         |
+| :------------- | :------------------------------------------- |
+| `blob`         | `unknown`                                    |
+| `formatterFn?` | (`ann`: `Annotation`) => `string` \| `Error` |
+
+#### Returns
+
+`Object`
+
+| Name          | Type     |
+| :------------ | :------- |
+| `VALID_DELAY` | `number` |
+
+---
+
 ### decodeCoinInitializers
 
 ▸ **decodeCoinInitializers**(`blob`, `formatterFn?`): `Object`
@@ -132,6 +166,7 @@ error.
 
 | Name        | Type                                                                                                          |
 | :---------- | :------------------------------------------------------------------------------------------------------------ |
+| `bounty`    | { NETWORK: string; NETWORK_ID: number; START_BLOCK: number; CONTRACT_ADDRESS: string; INIT_ADDRESS: string; } |
 | `coin`      | { NETWORK: string; NETWORK_ID: number; START_BLOCK: number; CONTRACT_ADDRESS: string; INIT_ADDRESS: string; } |
 | `equipment` | { NETWORK: string; NETWORK_ID: number; START_BLOCK: number; CONTRACT_ADDRESS: string; INIT_ADDRESS: string; } |
 | `ring`      | { NETWORK: string; NETWORK_ID: number; START_BLOCK: number; CONTRACT_ADDRESS: string; INIT_ADDRESS: string; } |
