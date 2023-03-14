@@ -1,5 +1,5 @@
 import * as decoders from "decoders";
-import { withDefault } from "./decoder-helpers";
+import { withDefault, address, notRequired } from "./decoder-helpers";
 
 export type Initializers = ReturnType<typeof decodeInitializers>;
 export const decodeInitializers = decoders.exact({
@@ -70,6 +70,15 @@ export const decodeBountyInitializers = decoders.exact({
  */
 export type PlayerInitializers = ReturnType<typeof decodePlayerInitializers>;
 export const decodePlayerInitializers = decoders.exact({
+  // Address Config
+  FEE_ADDRESS: address(),
+  EQUIPMENT_ADDRESS: notRequired(address()),
+  COIN_ADDRESS: notRequired(address()),
+  RING_ADDRESS: notRequired(address()),
+  TOWN_ADDRESS: notRequired(address()),
+  BOUNTY_ADDRESS: notRequired(address()),
+  VRF_ADDRESS: notRequired(address()),
+  // Game Config
   BASE_MOVE_SPEED: withDefault(decoders.integer, 10000),
   BASE_ATTACK_POWER: withDefault(decoders.integer, 10000),
   MIN_TRIP_TIME: withDefault(decoders.integer, 1),

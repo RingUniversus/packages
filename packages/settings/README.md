@@ -251,16 +251,23 @@ error.
 
 `Object`
 
-| Name                             | Type     |
-| :------------------------------- | :------- |
-| `BASE_ATTACK_POWER`              | `number` |
-| `BASE_MOVE_SPEED`                | `number` |
-| `BOUNTY_MINT_RATIO_PER_MOVE`     | `number` |
-| `MAX_MINT_TOW_PER_MOVE`          | `number` |
-| `MIN_TRIP_TIME`                  | `number` |
-| `SEGMENTATION_DISTANCE_PER_MOVE` | `number` |
-| `TOWN_MINT_FEE`                  | `number` |
-| `TOWN_MINT_RATIO_PER_MOVE`       | `number` |
+| Name                             | Type                    |
+| :------------------------------- | :---------------------- |
+| `BASE_ATTACK_POWER`              | `number`                |
+| `BASE_MOVE_SPEED`                | `number`                |
+| `BOUNTY_ADDRESS`                 | `undefined` \| `string` |
+| `BOUNTY_MINT_RATIO_PER_MOVE`     | `number`                |
+| `COIN_ADDRESS`                   | `undefined` \| `string` |
+| `EQUIPMENT_ADDRESS`              | `undefined` \| `string` |
+| `FEE_ADDRESS`                    | `string`                |
+| `MAX_MINT_TOW_PER_MOVE`          | `number`                |
+| `MIN_TRIP_TIME`                  | `number`                |
+| `RING_ADDRESS`                   | `undefined` \| `string` |
+| `SEGMENTATION_DISTANCE_PER_MOVE` | `number`                |
+| `TOWN_ADDRESS`                   | `undefined` \| `string` |
+| `TOWN_MINT_FEE`                  | `number`                |
+| `TOWN_MINT_RATIO_PER_MOVE`       | `number`                |
+| `VRF_ADDRESS`                    | `undefined` \| `string` |
 
 ---
 
