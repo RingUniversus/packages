@@ -6,7 +6,7 @@
 /**
  * The name of the network where these contracts are deployed.
  */
-export const NETWORK = 'localhost';
+export const NETWORK = "localhost";
 /**
  * The id of the network where these contracts are deployed.
  */
@@ -18,8 +18,8 @@ export const START_BLOCK = 0;
 /**
  * The address for the RingUniversusPlayer contract.
  */
-export const CONTRACT_ADDRESS = '0xadb98FfcBdd6C62C5e2aE44f3085f40241773A29';
+export const CONTRACT_ADDRESS = "0xadb98FfcBdd6C62C5e2aE44f3085f40241773A29";
 /**
  * The address for the initalizer contract. Useful for lobbies.
  */
-export const INIT_ADDRESS = '0xD59dBfD86239453D95311b9CE1bC0960E770c3bd';
+export const INIT_ADDRESS = "0xD59dBfD86239453D95311b9CE1bC0960E770c3bd";
