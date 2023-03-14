@@ -15,13 +15,13 @@ export declare const NETWORK_ID = 31337;
  */
 export declare const START_BLOCK = 0;
 /**
- * The address for the RingUniversusPlayer contract.
+ * The address for the RingUniversusBounty contract.
  */
 export declare const CONTRACT_ADDRESS =
-  "0xe5586817669ec04A95062E206cf16a948686b698";
+  "0xDc24C21bc5C7008e3ED9abb5c44d6D21bfc02595";
 /**
  * The address for the initalizer contract. Useful for lobbies.
  */
 export declare const INIT_ADDRESS =
-  "0xc3a436E253720511B7756488dCAA58CAf725B2B0";
+  "0xDCf0e438c10Deb6e37bd09E0439e4FA5C16f5BBE";
 //# sourceMappingURL=bounty.d.ts.map

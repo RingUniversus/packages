@@ -15,13 +15,13 @@ export declare const NETWORK_ID = 31337;
  */
 export declare const START_BLOCK = 0;
 /**
- * The address for the RingUniversusPlayer contract.
+ * The address for the RingUniversusCoin contract.
  */
 export declare const CONTRACT_ADDRESS =
-  "0x0b06c9c89ad4f38e104d43069B8269a881d69aF2";
+  "0x2Bbf9a1D7256271330495d8632B97368FaE89268";
 /**
  * The address for the initalizer contract. Useful for lobbies.
  */
 export declare const INIT_ADDRESS =
-  "0x8b6788793BE1E93EF22a1A783d0bC875e5045317";
+  "0x6A3d45c8FC8239ff19Ee38B15343f5A7b116b9a1";
 //# sourceMappingURL=coin.d.ts.map
