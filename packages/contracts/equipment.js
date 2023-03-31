@@ -25,9 +25,9 @@ exports.START_BLOCK = 0;
 /**
  * The address for the RingUniversusEquipment contract.
  */
-exports.CONTRACT_ADDRESS = "0xd934efbBDbe26B2501e539647194bC50F45d6E86";
+exports.CONTRACT_ADDRESS = "0xB76020a42E72a8B94C4BE523E08eB49D194C10F1";
 /**
  * The address for the initalizer contract. Useful for lobbies.
  */
-exports.INIT_ADDRESS = "0x7622A07ec001d2d9BAFFEcF35b5e6Cf3654bc0De";
+exports.INIT_ADDRESS = "0x47F1C54F147FE76C329f535A6f11513A238894d8";
 //# sourceMappingURL=equipment.js.map
