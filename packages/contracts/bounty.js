@@ -25,9 +25,9 @@ exports.START_BLOCK = 0;
 /**
  * The address for the RingUniversusBounty contract.
  */
-exports.CONTRACT_ADDRESS = "0x05bc9678C41a3E89cA0ca6D837565a4bCb5D0E5c";
+exports.CONTRACT_ADDRESS = "0x5c2EFa60d8c8c05f94e7C0cC0d4B17638d6727d2";
 /**
  * The address for the initalizer contract. Useful for lobbies.
  */
-exports.INIT_ADDRESS = "0x627a72bbE16416Ae722BA05876C5cB2dcb0Dc6BB";
+exports.INIT_ADDRESS = "0xC1b66B0C0C603E8A323dC3d6C747c0c69E60cC5B";
 //# sourceMappingURL=bounty.js.map

@@ -18,10 +18,10 @@ export declare const START_BLOCK = 0;
  * The address for the RingUniversusTown contract.
  */
 export declare const CONTRACT_ADDRESS =
-  "0x5e59c8F10288314698f2533e8973774ba8db4CBf";
+  "0x0939f30c6168e0a122538923F706f13ED8Ef8Db7";
 /**
  * The address for the initalizer contract. Useful for lobbies.
  */
 export declare const INIT_ADDRESS =
-  "0xc7c11634D5af67716BE87e618a32bf7ae1028Fd6";
+  "0x6779e30AD9Be34c5dd2d8268B867C9B17E307ae2";
 //# sourceMappingURL=town.d.ts.map

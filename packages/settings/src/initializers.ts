@@ -43,7 +43,10 @@ export const decodeRingInitializers = decoders.exact({
  */
 export type CoinInitializers = ReturnType<typeof decodeCoinInitializers>;
 export const decodeCoinInitializers = decoders.exact({
-  PLACEHOLDER: withDefault(decoders.integer, 0),
+  NAME: decoders.string,
+  SYMBOL: decoders.string,
+  DECIMALS: decoders.integer,
+  TOTAL_SUPPLY: decoders.integer,
 }).verify;
 
 /**

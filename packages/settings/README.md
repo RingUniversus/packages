@@ -150,9 +150,12 @@ error.
 
 `Object`
 
-| Name          | Type     |
-| :------------ | :------- |
-| `PLACEHOLDER` | `number` |
+| Name           | Type     |
+| :------------- | :------- |
+| `DECIMALS`     | `number` |
+| `NAME`         | `string` |
+| `SYMBOL`       | `string` |
+| `TOTAL_SUPPLY` | `number` |
 
 ---
 
