@@ -56,7 +56,8 @@ export type EquipmentInitializers = ReturnType<
   typeof decodeEquipmentInitializers
 >;
 export const decodeEquipmentInitializers = decoders.exact({
-  PLACEHOLDER: withDefault(decoders.integer, 0),
+  NAME: decoders.string,
+  SYMBOL: decoders.string,
 }).verify;
 
 /**

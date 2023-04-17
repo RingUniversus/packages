@@ -42,5 +42,5 @@ yarn link "@ringuniversus/contracts"
 ## Local publish
 
 ```shell
-yarn prepublishOnly
+npx lerna exec -- yarn prepublishOnly
 ```

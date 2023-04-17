@@ -206,9 +206,10 @@ error.
 
 `Object`
 
-| Name          | Type     |
-| :------------ | :------- |
-| `PLACEHOLDER` | `number` |
+| Name     | Type     |
+| :------- | :------- |
+| `NAME`   | `string` |
+| `SYMBOL` | `string` |
 
 ---
 

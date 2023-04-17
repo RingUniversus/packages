@@ -34,7 +34,7 @@
     "test": "exit 0",
     "lint": "eslint .",
     "format": "prettier --write .",
-    "docs": "typedoc --tsconfig tsconfig.docs.json && npm run format",
+    "docs": "typedoc --plugin typedoc-plugin-markdown --tsconfig tsconfig.docs.json && npm run format",
     "clean": "del-cli node_modules typechain abis tsconfig.ref.tsbuildinfo"
   },
   "dependencies": {
@@ -43,11 +43,11 @@
   },
   "devDependencies": {
     "del-cli": "^5.0.0",
-    "eslint": "^8.31.0",
-    "prettier": "^2.8.1",
-    "typedoc": "^0.23.23",
-    "typedoc-plugin-markdown": "^3.14.0",
-    "typescript": "^4.9.4"
+    "eslint": "^8.38.0",
+    "prettier": "^2.8.7",
+    "typedoc": "^0.24.4",
+    "typedoc-plugin-markdown": "^3.15.1",
+    "typescript": "^5.0.4"
   },
   "publishConfig": {
     "access": "public"

@@ -17,19 +17,19 @@
     "test": "exit 0",
     "lint": "eslint .",
     "format": "prettier --write .",
-    "docs": "typedoc && npm run format",
+    "docs": "typedoc --plugin typedoc-plugin-markdown && npm run format",
     "clean": "del-cli dist node_modules tsconfig.ref.tsbuildinfo"
   },
   "dependencies": {
-    "decoders": "^2.0.1"
+    "decoders": "^2.0.3"
   },
   "devDependencies": {
     "del-cli": "^5.0.0",
-    "eslint": "^8.31.0",
-    "prettier": "^2.8.1",
-    "typedoc": "^0.23.23",
-    "typedoc-plugin-markdown": "^3.14.0",
-    "typescript": "^4.9.4"
+    "eslint": "^8.38.0",
+    "prettier": "^2.8.7",
+    "typedoc": "^0.24.4",
+    "typedoc-plugin-markdown": "^3.15.1",
+    "typescript": "^5.0.4"
   },
   "publishConfig": {
     "access": "public"
