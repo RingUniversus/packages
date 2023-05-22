@@ -1,5 +1,5 @@
 {
-  "name": "@ringuniversus/settings",
+  "name": "@ringuniversus/types",
   "version": "0.2.1-alpha.0",
   "license": "MIT",
   "author": "Conight <xfddwhh@gmail.com>",
@@ -9,7 +9,9 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
-    "dist/"
+    "dist/",
+    "enums/",
+    "interfaces/"
   ],
   "scripts": {
     "prepublishOnly": "npm run build && npm run docs",
@@ -20,9 +22,7 @@
     "docs": "typedoc --plugin typedoc-plugin-markdown && npm run format",
     "clean": "del-cli dist node_modules tsconfig.ref.tsbuildinfo"
   },
-  "dependencies": {
-    "decoders": "^2.0.3"
-  },
+  "dependencies": {},
   "devDependencies": {
     "del-cli": "^5.0.0",
     "eslint": "^8.38.0",
@@ -33,6 +33,5 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "gitHead": "c99e17fa1be8995e1680ead2ed85fb76b4ddd9fe"
+  }
 }

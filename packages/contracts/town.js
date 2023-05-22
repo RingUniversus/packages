@@ -25,9 +25,9 @@ exports.START_BLOCK = 0;
 /**
  * The address for the RingUniversusTown contract.
  */
-exports.CONTRACT_ADDRESS = "0xC7CCDFe2414593F299E8F1eD4FB4b31d9eD35A0e";
+exports.CONTRACT_ADDRESS = "0xc7c11634D5af67716BE87e618a32bf7ae1028Fd6";
 /**
  * The address for the initalizer contract. Useful for lobbies.
  */
-exports.INIT_ADDRESS = "0x8c8f067f5debEDcDA74AAEfc92f6e4653F290C77";
+exports.INIT_ADDRESS = "0xc8C4B2a2e069d2C6f1F3ac04f794349d441138c4";
 //# sourceMappingURL=town.js.map

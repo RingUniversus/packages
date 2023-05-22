@@ -4,7 +4,7 @@
   "license": "MIT",
   "author": "Conight <xfddwhh@gmail.com>",
   "engines": {
-    "node": ">=16"
+    "node": ">=18"
   },
   "main": "index.js",
   "types": "index.d.ts",

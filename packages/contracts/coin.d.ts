@@ -18,10 +18,10 @@ export declare const START_BLOCK = 0;
  * The address for the RingUniversusCoin contract.
  */
 export declare const CONTRACT_ADDRESS =
-  "0xbd72AC16a05C8379ecd2576455B131f25f57F546";
+  "0xBa82512922EDF35F6Fba9E652D822C8D02949888";
 /**
  * The address for the initalizer contract. Useful for lobbies.
  */
 export declare const INIT_ADDRESS =
-  "0xEe41018A3852F995a0D8073642676a4653EEc247";
+  "0x9696B08d71d3cBE15Fea4Da48B34a3b6576cCA16";
 //# sourceMappingURL=coin.d.ts.map

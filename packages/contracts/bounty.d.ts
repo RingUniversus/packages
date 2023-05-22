@@ -18,10 +18,10 @@ export declare const START_BLOCK = 0;
  * The address for the RingUniversusBounty contract.
  */
 export declare const CONTRACT_ADDRESS =
-  "0xD3A8310A444903F5Ffe0ebf39A0F84771782F932";
+  "0x05bc9678C41a3E89cA0ca6D837565a4bCb5D0E5c";
 /**
  * The address for the initalizer contract. Useful for lobbies.
  */
 export declare const INIT_ADDRESS =
-  "0x32e645aA8b0e7b5AD36E5c112D47fE5de2E74e83";
+  "0x627a72bbE16416Ae722BA05876C5cB2dcb0Dc6BB";
 //# sourceMappingURL=bounty.d.ts.map
