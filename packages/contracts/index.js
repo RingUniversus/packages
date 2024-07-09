@@ -32,7 +32,13 @@
  * @packageDocumentation
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.player = exports.equipment = exports.bounty = exports.coin = exports.ring = exports.town = void 0;
+exports.player =
+  exports.equipment =
+  exports.bounty =
+  exports.coin =
+  exports.ring =
+  exports.town =
+    void 0;
 exports.town = require("./town");
 exports.ring = require("./ring");
 exports.coin = require("./coin");

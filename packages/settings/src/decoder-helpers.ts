@@ -31,10 +31,10 @@ export function address() {
 export function between(
   decoder: decoders.Decoder<number>,
   min: number,
-  max: number
+  max: number,
 ) {
   return decoder.refine(
     (val) => val >= min && val <= max,
-    `Must be between ${min} and ${max}`
+    `Must be between ${min} and ${max}`,
   );
 }

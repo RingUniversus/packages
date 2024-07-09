@@ -14,7 +14,7 @@
 
 ### CONTRACT_ADDRESS
 
-• `Const` **CONTRACT_ADDRESS**: `"0x5c2EFa60d8c8c05f94e7C0cC0d4B17638d6727d2"`
+• `Const` **CONTRACT_ADDRESS**: `"0xDc9b0E1F64a8f2eD91f2A8394cB07a3d3103624a"`
 
 The address for the RingUniversusRing contract.
 
@@ -22,7 +22,7 @@ The address for the RingUniversusRing contract.
 
 ### INIT_ADDRESS
 
-• `Const` **INIT_ADDRESS**: `"0xC1b66B0C0C603E8A323dC3d6C747c0c69E60cC5B"`
+• `Const` **INIT_ADDRESS**: `"0xDc24C21bc5C7008e3ED9abb5c44d6D21bfc02595"`
 
 The address for the initalizer contract. Useful for lobbies.
 

@@ -1,3 +1,7 @@
+**@ringuniversus/contracts** • **Docs**
+
+---
+
 # @ringuniversus/contracts
 
 This package contains deployed contract addresses, ABIs, and Typechain types
@@ -30,13 +34,11 @@ The Typechain types can be found in the `typechain` directory.
 
 The contract ABIs can be found in the `abis` directory.
 
-## Table of contents
+## Namespaces
 
-### Namespaces
-
-- [bounty](modules/bounty.md)
-- [coin](modules/coin.md)
-- [equipment](modules/equipment.md)
-- [player](modules/player.md)
-- [ring](modules/ring.md)
-- [town](modules/town.md)
+- [bounty](namespaces/bounty/README.md)
+- [coin](namespaces/coin/README.md)
+- [equipment](namespaces/equipment/README.md)
+- [player](namespaces/player/README.md)
+- [ring](namespaces/ring/README.md)
+- [town](namespaces/town/README.md)
