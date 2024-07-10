@@ -2,7 +2,7 @@ import * as decoders from "decoders";
 import { withDefault, address, notRequired } from "./decoder-helpers";
 
 export type Initializers = ReturnType<typeof decodeInitializers>;
-export const decodeInitializers = decoders.exact({
+export const decodeInitializers: any | Error = decoders.exact({
   /**
    * Base Config
    */
@@ -13,7 +13,7 @@ export const decodeInitializers = decoders.exact({
  * Town Initializers
  */
 export type TownInitializers = ReturnType<typeof decodeTownInitializers>;
-export const decodeTownInitializers = decoders.exact({
+export const decodeTownInitializers: any | Error = decoders.exact({
   // 1000 means 10%
   EXPLORER_FEE_RATIO: withDefault(decoders.integer, 1000),
   SYSTEM_EXPLORE_FEE_RATIO: withDefault(decoders.integer, 1000),
@@ -27,7 +27,7 @@ export const decodeTownInitializers = decoders.exact({
  * Ring Initializers
  */
 export type RingInitializers = ReturnType<typeof decodeRingInitializers>;
-export const decodeRingInitializers = decoders.exact({
+export const decodeRingInitializers: any | Error = decoders.exact({
   // Distance for each circle
   DISTANCE: withDefault(decoders.integer, 2000),
   // 1000 means 10.00%
@@ -42,7 +42,7 @@ export const decodeRingInitializers = decoders.exact({
  * Coin Initializers
  */
 export type CoinInitializers = ReturnType<typeof decodeCoinInitializers>;
-export const decodeCoinInitializers = decoders.exact({
+export const decodeCoinInitializers: any | Error = decoders.exact({
   NAME: decoders.string,
   SYMBOL: decoders.string,
   DECIMALS: decoders.integer,
@@ -55,7 +55,7 @@ export const decodeCoinInitializers = decoders.exact({
 export type EquipmentInitializers = ReturnType<
   typeof decodeEquipmentInitializers
 >;
-export const decodeEquipmentInitializers = decoders.exact({
+export const decodeEquipmentInitializers: any | Error = decoders.exact({
   NAME: decoders.string,
   SYMBOL: decoders.string,
 }).verify;
@@ -64,7 +64,7 @@ export const decodeEquipmentInitializers = decoders.exact({
  * Bounty Initializers
  */
 export type BountyInitializers = ReturnType<typeof decodeBountyInitializers>;
-export const decodeBountyInitializers = decoders.exact({
+export const decodeBountyInitializers: any | Error = decoders.exact({
   // Default delay 3 days
   VALID_DELAY: withDefault(decoders.integer, 259200),
 }).verify;
@@ -73,7 +73,7 @@ export const decodeBountyInitializers = decoders.exact({
  * Player Initializers
  */
 export type PlayerInitializers = ReturnType<typeof decodePlayerInitializers>;
-export const decodePlayerInitializers = decoders.exact({
+export const decodePlayerInitializers: any | Error = decoders.exact({
   // Address Config
   FEE_ADDRESS: address(),
   EQUIPMENT_ADDRESS: notRequired(address()),

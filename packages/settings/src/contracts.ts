@@ -16,7 +16,7 @@ const baseDecoder = decoders.exact({
   INIT_ADDRESS: decoders.string,
 });
 
-export const decodeContracts = decoders.exact({
+export const decodeContracts: any | Error = decoders.exact({
   town: baseDecoder,
   ring: baseDecoder,
   coin: baseDecoder,
