@@ -23,4 +23,7 @@
  * @packageDocumentation
  */
 
+export * from "./gas_prices";
 export * from "./identifier";
+export * from "./setting";
+export * from "./utility";
