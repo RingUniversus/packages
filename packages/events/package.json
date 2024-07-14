@@ -1,0 +1,33 @@
+{
+  "name": "@runguniversus/events",
+  "version": "0.2.4-alpha.0",
+  "description": "Ring Universus events",
+  "author": "Conight <xfddwhh@gmail.com>",
+  "homepage": "https://github.com/RingUniversus/packages#readme",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "prepublishOnly": "npm run build && npm run docs",
+    "build": "tsc -p .",
+    "test": "exit 0",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "docs": "typedoc && npm run format",
+    "clean": "del-cli dist node_modules tsconfig.ref.tsbuildinfo"
+  },
+  "devDependencies": {
+    "del-cli": "^5.1.0",
+    "eslint": "^9.7.0",
+    "prettier": "^3.3.3",
+    "typedoc": "^0.26.4",
+    "typedoc-plugin-markdown": "4.2.1",
+    "typescript": "5.5.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
