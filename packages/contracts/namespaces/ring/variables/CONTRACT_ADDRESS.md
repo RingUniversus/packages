@@ -4,6 +4,6 @@
 
 # Variable: CONTRACT_ADDRESS
 
-> `const` **CONTRACT_ADDRESS**: `"0xDc9b0E1F64a8f2eD91f2A8394cB07a3d3103624a"` = `"0xDc9b0E1F64a8f2eD91f2A8394cB07a3d3103624a"`
+> `const` **CONTRACT_ADDRESS**: `"0x14E5528eB1272a5f5254627ebf0b27e8BfBb6528"` = `"0x14E5528eB1272a5f5254627ebf0b27e8BfBb6528"`
 
 The address for the RingUniversusRing contract.

@@ -34,7 +34,7 @@
     "test": "exit 0",
     "lint": "eslint .",
     "format": "prettier --write .",
-    "docs": "typedoc --plugin typedoc-plugin-markdown --tsconfig tsconfig.docs.json && npm run format",
+    "docs": "typedoc && npm run format",
     "clean": "del-cli node_modules typechain abis tsconfig.ref.tsbuildinfo"
   },
   "dependencies": {
@@ -45,7 +45,7 @@
     "del-cli": "^5.0.0",
     "eslint": "^9.7.0",
     "prettier": "^3.3.3",
-    "typedoc": "^0.26.4",
+    "typedoc": "^0.26.5",
     "typedoc-plugin-markdown": "^4.2.1",
     "typescript": "^5.0.4"
   },

@@ -17,9 +17,11 @@ export declare const START_BLOCK = 0;
 /**
  * The address for the RingUniversusPlayer contract.
  */
-export declare const CONTRACT_ADDRESS = "0x4559A0A201d86af72283044a094230B068ef3581";
+export declare const CONTRACT_ADDRESS =
+  "0x4559A0A201d86af72283044a094230B068ef3581";
 /**
  * The address for the initalizer contract. Useful for lobbies.
  */
-export declare const INIT_ADDRESS = "0x06c255251eE0fccd7C9753001Ca609147Efe0823";
+export declare const INIT_ADDRESS =
+  "0x06c255251eE0fccd7C9753001Ca609147Efe0823";
 //# sourceMappingURL=player.d.ts.map

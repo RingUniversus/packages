@@ -4,6 +4,6 @@
 
 # Variable: INIT_ADDRESS
 
-> `const` **INIT_ADDRESS**: `"0x9CDcE4866634c1C77e546B8bAD26CDba18D0af88"` = `"0x9CDcE4866634c1C77e546B8bAD26CDba18D0af88"`
+> `const` **INIT_ADDRESS**: `"0xDdfa323d6d20384a2D156D807110aF4f7999213D"` = `"0xDdfa323d6d20384a2D156D807110aF4f7999213D"`
 
 The address for the initalizer contract. Useful for lobbies.
