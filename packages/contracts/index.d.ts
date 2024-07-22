@@ -30,10 +30,10 @@
  *
  * @packageDocumentation
  */
-export * as town from "./town";
-export * as ring from "./ring";
+export * as town from "./src/town";
+export * as ring from "./src/ring";
 export * as coin from "./src/coin";
-export * as bounty from "./bounty";
-export * as equipment from "./equipment";
-export * as player from "./player";
+export * as bounty from "./src/bounty";
+export * as equipment from "./src/equipment";
+export * as player from "./src/player";
 //# sourceMappingURL=index.d.ts.map

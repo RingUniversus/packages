@@ -2,12 +2,12 @@
   "extends": "./tsconfig.base.json",
   "include": [
     "index.ts",
-    "town.ts",
-    "ring.ts",
-    "coin.ts",
-    "bounty.ts",
-    "equipment.ts",
-    "player.ts",
+    "src/town.ts",
+    "src/ring.ts",
+    "src/coin.ts",
+    "src/bounty.ts",
+    "src/equipment.ts",
+    "src/player.ts",
     "typechain/**/*.ts",
     "typechain/**/*.d.ts"
   ]

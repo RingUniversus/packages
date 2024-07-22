@@ -1,12 +1,12 @@
 /**
  * This package contains deployed contract addresses, ABIs, and Typechain types
- * for the Ring Universus Town.
+ * for the Ring Universus Coin.
  */
 
 /**
  * The name of the network where these contracts are deployed.
  */
-export const NETWORK = "localhost";
+export const NETWORK = 'localhost';
 /**
  * The id of the network where these contracts are deployed.
  */
@@ -16,10 +16,10 @@ export const NETWORK_ID = 31337;
  */
 export const START_BLOCK = 0;
 /**
- * The address for the RingUniversusTown contract.
+ * The address for the RingUniversusCoin contract.
  */
-export const CONTRACT_ADDRESS = "0x2Bbf9a1D7256271330495d8632B97368FaE89268";
+export const CONTRACT_ADDRESS = '0x0151210BEA80B63a601f890D9165A8Ae73Ce161A';
 /**
  * The address for the initalizer contract. Useful for lobbies.
  */
-export const INIT_ADDRESS = "0x6A3d45c8FC8239ff19Ee38B15343f5A7b116b9a1";
+export const INIT_ADDRESS = '0xc254F415198EaD34DCe0431DF6E37dB7c261b397';

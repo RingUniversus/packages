@@ -1,6 +1,6 @@
 /**
  * This package contains deployed contract addresses, ABIs, and Typechain types
- * for the Ring Universus Equipment.
+ * for the Ring Universus Ring.
  */
 /**
  * The name of the network where these contracts are deployed.
@@ -15,11 +15,11 @@ export declare const NETWORK_ID = 31337;
  */
 export declare const START_BLOCK = 0;
 /**
- * The address for the RingUniversusEquipment contract.
+ * The address for the RingUniversusRing contract.
  */
-export declare const CONTRACT_ADDRESS = "0xD3A8310A444903F5Ffe0ebf39A0F84771782F932";
+export declare const CONTRACT_ADDRESS = "0x14E5528eB1272a5f5254627ebf0b27e8BfBb6528";
 /**
  * The address for the initalizer contract. Useful for lobbies.
  */
-export declare const INIT_ADDRESS = "0x32e645aA8b0e7b5AD36E5c112D47fE5de2E74e83";
-//# sourceMappingURL=equipment.d.ts.map
+export declare const INIT_ADDRESS = "0x8F0c89e956cE672Dd5b496c930DD0d85a8C16c9A";
+//# sourceMappingURL=ring.d.ts.map

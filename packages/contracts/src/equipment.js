@@ -1,25 +1,28 @@
+"use strict";
 /**
  * This package contains deployed contract addresses, ABIs, and Typechain types
  * for the Ring Universus Equipment.
  */
-
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.INIT_ADDRESS = exports.CONTRACT_ADDRESS = exports.START_BLOCK = exports.NETWORK_ID = exports.NETWORK = void 0;
 /**
  * The name of the network where these contracts are deployed.
  */
-export const NETWORK = "localhost";
+exports.NETWORK = 'localhost';
 /**
  * The id of the network where these contracts are deployed.
  */
-export const NETWORK_ID = 31337;
+exports.NETWORK_ID = 31337;
 /**
  * The block in which the RingUniversus contract was initialized.
  */
-export const START_BLOCK = 0;
+exports.START_BLOCK = 0;
 /**
  * The address for the RingUniversusEquipment contract.
  */
-export const CONTRACT_ADDRESS = "0xD3A8310A444903F5Ffe0ebf39A0F84771782F932";
+exports.CONTRACT_ADDRESS = '0x704b3B00D7990b258795A88a2AB8B53c13506995';
 /**
  * The address for the initalizer contract. Useful for lobbies.
  */
-export const INIT_ADDRESS = "0x32e645aA8b0e7b5AD36E5c112D47fE5de2E74e83";
+exports.INIT_ADDRESS = '0x86BD50b28B408C2a928c72E1E3AB681fb0aBa90f';
+//# sourceMappingURL=equipment.js.map

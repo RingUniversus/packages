@@ -8,7 +8,7 @@ exports.INIT_ADDRESS = exports.CONTRACT_ADDRESS = exports.START_BLOCK = exports.
 /**
  * The name of the network where these contracts are deployed.
  */
-exports.NETWORK = "localhost";
+exports.NETWORK = 'localhost';
 /**
  * The id of the network where these contracts are deployed.
  */
@@ -20,9 +20,9 @@ exports.START_BLOCK = 0;
 /**
  * The address for the RingUniversusBounty contract.
  */
-exports.CONTRACT_ADDRESS = "0x3f557d4470E7Ef01365259DC4e862d4173d482F0";
+exports.CONTRACT_ADDRESS = '0x11986Cc7aBe8FfE2D14A430E3E1730B8639400d5';
 /**
  * The address for the initalizer contract. Useful for lobbies.
  */
-exports.INIT_ADDRESS = "0x9CDcE4866634c1C77e546B8bAD26CDba18D0af88";
+exports.INIT_ADDRESS = '0xDdfa323d6d20384a2D156D807110aF4f7999213D';
 //# sourceMappingURL=bounty.js.map
