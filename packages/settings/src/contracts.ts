@@ -20,7 +20,7 @@ export const decodeContracts: any | Error = decoders.exact({
   town: baseDecoder,
   ring: baseDecoder,
   coin: baseDecoder,
-  bounty: baseDecoder,
+  oblivion: baseDecoder,
   equipment: baseDecoder,
   player: baseDecoder,
 }).verify;

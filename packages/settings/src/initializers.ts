@@ -34,8 +34,8 @@ export const decodeRingInitializers: any | Error = decoders.exact({
   TOWN_MINTING_RATIO: withDefault(decoders.integer, 1000),
   TOWN_OVER_MINTING_RATIO: withDefault(decoders.integer, 1000),
   TOWN_RATIO_BONUS: withDefault(decoders.integer, 100),
-  BOUNTY_MINTING_RATIO: withDefault(decoders.integer, 1000),
-  BOUNTY_RATIO_BONUS: withDefault(decoders.integer, 100),
+  OBLIVION_MINTING_RATIO: withDefault(decoders.integer, 1000),
+  OBLIVION_RATIO_BONUS: withDefault(decoders.integer, 100),
 }).verify;
 
 /**
@@ -61,10 +61,12 @@ export const decodeEquipmentInitializers: any | Error = decoders.exact({
 }).verify;
 
 /**
- * Bounty Initializers
+ * Oblivion Initializers
  */
-export type BountyInitializers = ReturnType<typeof decodeBountyInitializers>;
-export const decodeBountyInitializers: any | Error = decoders.exact({
+export type OblivionInitializers = ReturnType<
+  typeof decodeOblivionInitializers
+>;
+export const decodeOblivionInitializers: any | Error = decoders.exact({
   // Default delay 3 days
   VALID_DELAY: withDefault(decoders.integer, 259200),
 }).verify;
@@ -80,7 +82,7 @@ export const decodePlayerInitializers: any | Error = decoders.exact({
   COIN_ADDRESS: notRequired(address()),
   RING_ADDRESS: notRequired(address()),
   TOWN_ADDRESS: notRequired(address()),
-  BOUNTY_ADDRESS: notRequired(address()),
+  OBLIVION_ADDRESS: notRequired(address()),
   VRF_ADDRESS: notRequired(address()),
   // Game Config
   BASE_MOVE_SPEED: withDefault(decoders.integer, 10000),
@@ -89,6 +91,6 @@ export const decodePlayerInitializers: any | Error = decoders.exact({
   TOWN_MINT_FEE: withDefault(decoders.integer, 200),
   MAX_MINT_TOW_PER_MOVE: withDefault(decoders.integer, 3),
   TOWN_MINT_RATIO_PER_MOVE: withDefault(decoders.integer, 3000),
-  BOUNTY_MINT_RATIO_PER_MOVE: withDefault(decoders.integer, 3000),
+  OBLIVION_MINT_RATIO_PER_MOVE: withDefault(decoders.integer, 3000),
   SEGMENTATION_DISTANCE_PER_MOVE: withDefault(decoders.integer, 200),
 }).verify;

@@ -1,7 +1,5 @@
 import * as decoders from "decoders";
-import { utils } from "ethers";
-
-const { isAddress } = utils;
+import { isAddress } from "ethers";
 
 // Decoder helpers that will probably be refactored into a package
 export function withDefault<A>(decoder: decoders.Decoder<A>, def: A) {
