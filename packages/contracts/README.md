@@ -36,9 +36,9 @@ The contract ABIs can be found in the `abis` directory.
 
 ## Namespaces
 
-- [bounty](namespaces/bounty/README.md)
 - [coin](namespaces/coin/README.md)
 - [equipment](namespaces/equipment/README.md)
+- [oblivion](namespaces/oblivion/README.md)
 - [player](namespaces/player/README.md)
 - [ring](namespaces/ring/README.md)
 - [town](namespaces/town/README.md)

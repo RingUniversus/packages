@@ -5,7 +5,7 @@
     "src/town.ts",
     "src/ring.ts",
     "src/coin.ts",
-    "src/bounty.ts",
+    "src/obvision.ts",
     "src/equipment.ts",
     "src/player.ts",
     "typechain/**/*.ts",

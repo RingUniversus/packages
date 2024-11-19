@@ -1,25 +1,25 @@
 /**
  * This package contains deployed contract addresses, ABIs, and Typechain types
- * for the Ring Universus Bounty.
+ * for the Ring Universus Oblivion.
  */
 
 /**
  * The name of the network where these contracts are deployed.
  */
-export const NETWORK = "localhost";
+export const NETWORK = "customNetwork";
 /**
  * The id of the network where these contracts are deployed.
  */
-export const NETWORK_ID = 31337;
+export const NETWORK_ID = 5611;
 /**
  * The block in which the RingUniversus contract was initialized.
  */
-export const START_BLOCK = 0;
+export const START_BLOCK = 38414411;
 /**
- * The address for the RingUniversusBounty contract.
+ * The address for the RingUniversusOblivion contract.
  */
-export const CONTRACT_ADDRESS = "0x11986Cc7aBe8FfE2D14A430E3E1730B8639400d5";
+export const CONTRACT_ADDRESS = "0x91cC413f10487B030E548D9E46285330FFA99F7b";
 /**
  * The address for the initalizer contract. Useful for lobbies.
  */
-export const INIT_ADDRESS = "0xDdfa323d6d20384a2D156D807110aF4f7999213D";
+export const INIT_ADDRESS = "0x1faf1de737aE06c9a4900D458F54F0D1f0a85d2F";

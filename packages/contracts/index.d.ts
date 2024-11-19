@@ -33,7 +33,7 @@
 export * as town from "./src/town";
 export * as ring from "./src/ring";
 export * as coin from "./src/coin";
-export * as bounty from "./src/bounty";
+export * as oblivion from "./src/oblivion";
 export * as equipment from "./src/equipment";
 export * as player from "./src/player";
 //# sourceMappingURL=index.d.ts.map

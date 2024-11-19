@@ -1,10 +1,4 @@
 typechain/
 abis/
 index.*
-ring.*
-town.*
-equipment.*
-coin.*
-bounty.*
-player.*
 tsconfig.ref.tsbuildinfo
